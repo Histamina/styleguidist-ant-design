@@ -1,10 +1,11 @@
 import React from 'react'
 import { bool, func, string } from 'prop-types'
 import { Button as AntDButton } from 'antd'
+import '../../cmtUiKit.less';
 
 export const Button = props => (
   <AntDButton type="primary" {...props}>
-    {props.text}
+    {/* {props.text} */}
   </AntDButton>
 )
 

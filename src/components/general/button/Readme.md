@@ -1,10 +1,13 @@
 Button example:
 
-```js
+```jsx
 [
-    <Button key={1} text="Primary" type="primary" />,
-    <Button key={2} text="Secondary" type="secondary" />,
-    <Button key={3} text="Large" size="large"></Button>
+  
+    <Button key={1} className="cmt-button primary nonoutline" text="Primary" type="Primary Large" size="small">Primary</Button>,
+    <Button key={2} className="cmt-button secondary" text="Secondary" type="secondary" />,
+    <Button key={3} className="cmt-button tertiary" text="Large" size="large">
+      <i className="icon-alert-square" />
+    </Button>
 ]
 ```
 <!--
